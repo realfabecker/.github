@@ -1,9 +1,9 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ''
-labels: 'feature'
-assignees: 'realfabecker'
+title: '[Feature]: '
+labels: ['enchancement']
+assignees: ['realfabecker']
 
 ---
 
