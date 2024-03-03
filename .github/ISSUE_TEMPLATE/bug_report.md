@@ -7,34 +7,30 @@ assignees: realfabecker
 
 ---
 
-```markdown
-**Descreva o bug**
-Uma descrição clara e concisa do que é o bug.
+<!-- Forneça um resumo geral do problema no Título acima -->
 
-**Para Reproduzir**
-Passos para reproduzir o comportamento:
-1. Ir para '...'
-2. Clicar em '....'
-3. Rolagem até '....'
-4. Ver erro
+## Descrição detalhada
 
-**Comportamento esperado**
-Uma descrição clara e concisa do que você esperava que acontecesse.
+Forneça uma descrição detalhada da alteração ou adição que você está propondo.
 
-**Capturas de tela**
-Se aplicável, adicione capturas de tela para ajudar a explicar seu problema.
+Deixe claro se o problema é um bug, uma melhoria ou apenas uma pergunta.
 
-**Desktop (por favor, preencha as seguintes informações):**
- - SO: [por exemplo, iOS]
- - Navegador [por exemplo, chrome, safari]
- - Versão [por exemplo, 22]
+## Contexto
 
-**Smartphone (por favor, preencha as seguintes informações):**
- - Dispositivo: [por exemplo, iPhone6]
- - SO: [por exemplo, iOS8.1]
- - Navegador [por exemplo, navegador padrão, safari]
- - Versão [por exemplo, 22]
+Por que essa mudança é importante para você? Como você a usaria?
 
-**Contexto adicional**
-Adicione qualquer outro contexto sobre o problema aqui.
-```
+Como isso pode beneficiar outros usuários?
+
+## Implementação possível
+
+Não obrigatório, mas sugira uma ideia para implementar a adição ou mudança.
+
+## Seu ambiente
+
+Inclua tantos detalhes relevantes sobre o ambiente em que você experimentou o bug e como reproduzi-lo.
+
+* Versão usada (por exemplo, PHP 5.6, HHVM 3):
+* Sistema operacional e versão (por exemplo, Ubuntu 16.04, Windows 7):
+* Link para o seu projeto:
+* ...
+* ...
