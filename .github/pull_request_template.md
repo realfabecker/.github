@@ -32,7 +32,7 @@ Que tipos de mudanças o seu código introduz? Coloque um `x` em todas as caixas
 
 Verifique todos os seguintes pontos e marque um `x` em todas as caixas que se aplicam.
 
-Por favor, por favor, por favor, não envie seu pull request até que todas as caixas estejam marcadas. Assim que seu pull request for criado, ele acionará uma compilação em nosso [servidor de integração contínua](http://www.phptherightway.com/#continuous-integration) para garantir que seus [testes e estilo de código passem](https://help.github.com/articles/about-required-status-checks/).
+Por favor, por favor, por favor, não envie seu pull request até que todas as caixas estejam marcadas.
 
 - [ ] Li o documento **[CONTRIBUTING][link-contrib]**.
 - [ ] Meu pull request aborda exatamente um patch/funcionalidade.
