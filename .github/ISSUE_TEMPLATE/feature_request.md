@@ -7,30 +7,30 @@ assignees: realfabecker
 
 ---
 
-<!-- Provide a general summary of the issue in the Title above -->
+<!-- Forneça um resumo geral do problema no Título acima -->
 
-## Detailed description
+## Descrição detalhada
 
-Provide a detailed description of the change or addition you are proposing.
+Forneça uma descrição detalhada da alteração ou adição que você está propondo.
 
-Make it clear if the issue is a bug, an enhancement or just a question.
+Deixe claro se o problema é um bug, uma melhoria ou apenas uma pergunta.
 
-## Context
+## Contexto
 
-Why is this change important to you? How would you use it?
+Por que essa mudança é importante para você? Como você a usaria?
 
-How can it benefit other users?
+Como isso pode beneficiar outros usuários?
 
-## Possible implementation
+## Implementação possível
 
-Not obligatory, but suggest an idea for implementing addition or change.
+Não obrigatório, mas sugira uma ideia para implementar a adição ou mudança.
 
-## Your environment
+## Seu ambiente
 
-Include as many relevant details about the environment you experienced the bug in and how to reproduce it.
+Inclua tantos detalhes relevantes sobre o ambiente em que você experimentou o bug e como reproduzi-lo.
 
-* Version used (e.g. PHP 5.6, HHVM 3):
-* Operating system and version (e.g. Ubuntu 16.04, Windows 7):
-* Link to your project:
+* Versão usada (por exemplo, PHP 5.6, HHVM 3):
+* Sistema operacional e versão (por exemplo, Ubuntu 16.04, Windows 7):
+* Link para o seu projeto:
 * ...
 * ...
