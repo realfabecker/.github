@@ -6,10 +6,11 @@ Descreva suas alterações em detalhes.
 
 ## Motivação e contexto
 
-Por que essa mudança é necessária? Que problema ela resolve?
+Por que essa mudança é necessária? Essa alteração está proposta para resolver qual problema? 
 
 Se resolver um problema em aberto, por favor, vincule o problema aqui (se escrever `resolve #num`
 ou `fecha #num`, o problema será automaticamente fechado quando o pull for aceito.)
+
 
 ## Como isso foi testado?
 
