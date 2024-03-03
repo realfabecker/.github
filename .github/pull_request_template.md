@@ -33,7 +33,7 @@ Verifique todos os seguintes pontos e marque um `x` em todas as caixas que se ap
 
 Por favor, por favor, por favor, não envie seu pull request até que todas as caixas estejam marcadas. Assim que seu pull request for criado, ele acionará uma compilação em nosso [servidor de integração contínua](http://www.phptherightway.com/#continuous-integration) para garantir que seus [testes e estilo de código passem](https://help.github.com/articles/about-required-status-checks/).
 
-- [ ] Li o documento **[CONTRIBUTING](CONTRIBUTING.md)**.
+- [ ] Li o documento **[CONTRIBUTING][link-contrib]**.
 - [ ] Meu pull request aborda exatamente um patch/funcionalidade.
 - [ ] Criei uma branch para este patch/funcionalidade.
 - [ ] Cada commit individual no pull request é significativo.
@@ -41,3 +41,5 @@ Por favor, por favor, por favor, não envie seu pull request até que todas as c
 - [ ] Se minha alteração requer uma mudança na documentação, a atualizei de acordo.
 
 Se você não tiver certeza sobre algum desses pontos, não hesite em perguntar. Estamos aqui para ajudar!
+
+[link-contrib]: https://github.com/realfabecker/.github/blob/main/.github/CONTRIBUTING.md
