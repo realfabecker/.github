@@ -9,7 +9,7 @@ on:
     secrets:
       WD_NOTIFY_URL:
         required: true
-      WD_NOTIFY_TOKEN:
+      WD_NOTIFY_TOPIC:
         required: true
       WD_NOTIFY_SECRET:
         required: true
