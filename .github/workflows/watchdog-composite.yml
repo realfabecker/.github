@@ -1,4 +1,4 @@
-name: on-wd
+name: watchdog-composite
 
 on:
   workflow_call:

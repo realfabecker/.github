@@ -1,0 +1,59 @@
+name: watchdog
+
+on:
+  workflow_call:  
+    inputs:
+      actor:
+        required: true
+        type: string
+      from:
+        required: true
+        type: string
+      to:
+        required: true
+        type: string
+      link:
+        required: true
+        type: string
+      title:
+        required: true
+        type: string
+      url:
+        required: true
+        type: string
+      secret:
+        required: true
+        type: string
+      topic:
+        required: true
+        type: string
+      config:
+        required: true
+        type: string
+
+jobs:
+  run-watchdog:
+    runs-on: ubuntu-latest
+    name: run-watchdog
+
+    steps:
+      - name: download dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install -y libssl-dev
+          curl -s -L -o watchdog $(curl -s https://api.github.com/repos/realfabecker/watchdog/releases/latest | grep browser_download_url | cut -d '"' -f 4)
+          chmod +x watchdog
+        shell: bash
+
+      - name: run watchdog change notifier
+        env:
+          WD_NOTIFY_URL: ${{ inputs.url }}
+          WD_NOTIFY_TOKEN: ${{ inputs.secret }}
+          WD_NOTIFY_TOPIC: ${{ inputs.topic }}
+        run: |
+          ./watchdog --actor ${{ inputs.actor }} \
+              --from ${{ inputs.from }} \
+              --to ${{ inputs.to }} \
+              --link "${{ inputs.link }}" \
+              --title "${{ inputs.title }}" \
+              --config ${{ inputs.config }}
+        shell: bash
