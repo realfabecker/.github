@@ -11,7 +11,7 @@ on:
         required: true
       WD_NOTIFY_TOPIC:
         required: true
-      WD_NOTIFY_SECRET:
+      WD_NOTIFY_TOKEN:
         required: true
 
 jobs:
@@ -44,7 +44,7 @@ jobs:
           link: ${{ github.event.compare }}
           url: ${{ secrets.WD_NOTIFY_URL }}
           topic: ${{ secrets.WD_NOTIFY_TOPIC }}
-          secret: ${{ secrets.WD_NOTIFY_SECRET }}
+          token: ${{ secrets.WD_NOTIFY_TOKEN }}
 
       - name: Watchdog config (on-pull_request)
         uses: realfabecker/watchdog-action@master
@@ -58,4 +58,4 @@ jobs:
           link: ${{ github.event.pull_request.html_url }}
           url: ${{ secrets.WD_NOTIFY_URL }}
           topic: ${{ secrets.WD_NOTIFY_TOPIC }}
-          secret: ${{ secrets.WD_NOTIFY_SECRET }}
+          token: ${{ secrets.WD_NOTIFY_TOKEN }}
