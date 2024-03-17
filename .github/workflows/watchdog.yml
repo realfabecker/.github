@@ -26,7 +26,7 @@ on:
         required: true
       WD_NOTIFY_TOPIC:
         required: true
-      WD_NOTIFY_SECRET:
+      WD_NOTIFY_TOKEN:
         required: true
 
 jobs:
@@ -52,8 +52,8 @@ jobs:
       - name: run watchdog change notifier
         env:
           WD_NOTIFY_URL: ${{ secrets.WD_NOTIFY_URL }}
-          WD_NOTIFY_TOKEN: ${{ secrets.WD_NOTIFY_TOPIC }}
-          WD_NOTIFY_TOPIC: ${{ secrets.WD_NOTIFY_SECRET }}
+          WD_NOTIFY_TOPIC: ${{ secrets.WD_NOTIFY_TOPIC }}
+          WD_NOTIFY_TOKEN: ${{ secrets.WD_NOTIFY_TOKEN }}
         run: |
           ./watchdog --actor ${{ inputs.actor }} \
               --from ${{ inputs.from }} \
